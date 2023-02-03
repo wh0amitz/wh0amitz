@@ -14,3 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+| <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=wh0nsq&show_icons=true&include_all_commits=true&theme=swift&hide_border=true&hide=contribs" alt="wh0nsq's github stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wh0nsq&layout=compact&theme=swift&hide_border=true" /></a> |
+| ------------- | ------------- |
+
+### PS C:\Users\whoami> whoami
+I am just an ordinary student & security researcher & security enthusiast & hacker, and what I have learned basically comes from the information security community and my own research.
+### PS C:\Users\whoami> whoami /priv
+- Cyber Security: Penestration, Security Research.
+- Programmer: C/C++, C#, Python, JAVA, PHP, Nodejs.
+- CTF: Web.
+- Weapon: QSZ-92, Type 54 Pistol, NRP-9.
