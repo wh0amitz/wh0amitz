@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-| <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=wh0nsq&show_icons=true&include_all_commits=true&theme=swift&hide_border=true&hide=contribs" alt="wh0nsq's github stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wh0nsq&layout=compact&theme=swift&hide_border=true" /></a> |
+| <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=wh0nsq&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&hide=contribs" alt="wh0nsq's github stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wh0nsq&layout=compact&theme=onedark&hide_border=true" /></a> |
 | ------------- | ------------- |
 
 ### PS C:\Users\whoami> whoami
