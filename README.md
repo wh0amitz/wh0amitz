@@ -24,3 +24,12 @@ I am just an ordinary student & security researcher & security enthusiast & hack
 - Programmer: C/C++, C#, Python, JAVA, PHP, Nodejs.
 - CTF: Web.
 - Weapon: QSZ-92, Type 54 Pistol, NRP-9.
+---
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats/actions">
+    <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/wh0nsq?style=for-the-badge">
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats/actions">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/wh0nsq?style=for-the-badge">
+  </a>
+</p>
