@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 | ------------- | ------------- |
 ---
 ### PS C:\Users\whoami> whoami
-I am just an ordinary student & security researcher & security enthusiast & hacker, and what I have learned basically comes from the information security community and my own research.
+I am just an ordinary student & offensive security researcher & hacker, and what I have learned basically comes from the information security community and my own research.
 ### PS C:\Users\whoami> whoami /priv
 - Cyber Security: Penestration, Security Research.
 - Programmer: C/C++, C#, Python, JAVA, PHP, Nodejs.
