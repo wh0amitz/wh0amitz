@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 ### PS C:\Users\whoami> whoami
 I am just an ordinary student & offensive security researcher & hacker, and what I have learned basically comes from the information security community and my own research.
 ### PS C:\Users\whoami> whoami /priv
-- Cyber Security: Penestration, Security Research.
+- Cyber Security: Web Security, Windows Active Directory Security, Post Exploitation
 - Programmer: C/C++, C#, Python, JAVA, PHP, Nodejs.
 - CTF: Web.
 - Weapon: QSZ-92, Type 54 Pistol, NRP-9.
