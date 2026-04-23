@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" width="860" height="400" role="img" aria-label="Animated PowerShell terminal running whoami and whoami /priv">
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Cascadia Code', 'Consolas', 'Menlo', monospace; font-size: 14px; }
+    .ui   { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; }
+  </style>
+
+  <defs>
+    <clipPath id="type-whoami">
+      <rect x="178" y="48" width="0" height="22">
+        <animate attributeName="width" from="0" to="60" begin="0.4s" dur="0.6s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="type-priv">
+      <rect x="178" y="123" width="0" height="22">
+        <animate attributeName="width" from="0" to="115" begin="2.0s" dur="1.0s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Window chrome -->
+  <rect width="860" height="400" rx="10" fill="#0c0c0c"/>
+  <rect width="860" height="30" rx="10" fill="#1a1a1a"/>
+  <rect y="15"   width="860" height="15" fill="#1a1a1a"/>
+  <circle cx="18" cy="15" r="6" fill="#ff5f56"/>
+  <circle cx="38" cy="15" r="6" fill="#ffbd2e"/>
+  <circle cx="58" cy="15" r="6" fill="#27c93f"/>
+  <text x="430" y="19" text-anchor="middle" class="ui" fill="#e6e6e6">Administrator: Windows PowerShell</text>
+
+  <!-- ============ whoami ============ -->
+  <text x="15" y="63" class="mono" fill="#3a96dd">PS C:\Users\whoami&gt;</text>
+  <g clip-path="url(#type-whoami)">
+    <text x="181" y="63" class="mono" fill="#ffffff">whoami</text>
+  </g>
+
+  <!-- whoami output: hostname\user -->
+  <text x="15" y="90" class="mono" fill="#d0d0d0" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.1s" fill="freeze"/>
+    OFFENSIVE\wh0amitz
+  </text>
+
+  <!-- ============ whoami /priv ============ -->
+  <text x="15" y="138" class="mono" fill="#3a96dd" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.1s" fill="freeze"/>
+    PS C:\Users\whoami&gt;
+  </text>
+  <g clip-path="url(#type-priv)">
+    <text x="181" y="138" class="mono">
+      <tspan fill="#ffffff">whoami </tspan><tspan fill="#c19c00">/priv</tspan>
+    </text>
+  </g>
+
+  <!-- PRIVILEGES INFORMATION header -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.15s" dur="0.1s" fill="freeze"/>
+    <text x="15" y="170" class="mono" fill="#61dbfb" font-weight="700">PRIVILEGES INFORMATION</text>
+    <text x="15" y="188" class="mono" fill="#767676">----------------------</text>
+  </g>
+
+  <!-- Table header -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.35s" dur="0.1s" fill="freeze"/>
+    <text y="216" class="mono" fill="#dddddd">
+      <tspan x="15">Privilege Name</tspan>
+      <tspan x="275">Description</tspan>
+      <tspan x="745">State</tspan>
+    </text>
+    <text y="234" class="mono" fill="#767676">
+      <tspan x="15">=========================</tspan>
+      <tspan x="275">=============================================</tspan>
+      <tspan x="745">=======</tspan>
+    </text>
+  </g>
+
+  <!-- Row 1 -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.55s" dur="0.1s" fill="freeze"/>
+    <text y="258" class="mono">
+      <tspan x="15"  fill="#ffffff">SeCyberSecurityPrivilege</tspan>
+      <tspan x="275" fill="#c9d1d9">Web, AD, Kerberos, Post-Exploitation</tspan>
+      <tspan x="745" fill="#13a10e">Enabled</tspan>
+    </text>
+  </g>
+  <!-- Row 2 -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.75s" dur="0.1s" fill="freeze"/>
+    <text y="278" class="mono">
+      <tspan x="15"  fill="#ffffff">SeProgrammerPrivilege</tspan>
+      <tspan x="275" fill="#c9d1d9">C/C++, C#, Python, Java, PHP, Node.js</tspan>
+      <tspan x="745" fill="#13a10e">Enabled</tspan>
+    </text>
+  </g>
+  <!-- Row 3 -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.95s" dur="0.1s" fill="freeze"/>
+    <text y="298" class="mono">
+      <tspan x="15"  fill="#ffffff">SeCtfPrivilege</tspan>
+      <tspan x="275" fill="#c9d1d9">Web Exploitation</tspan>
+      <tspan x="745" fill="#13a10e">Enabled</tspan>
+    </text>
+  </g>
+  <!-- Row 4 -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="4.15s" dur="0.1s" fill="freeze"/>
+    <text y="318" class="mono">
+      <tspan x="15"  fill="#ffffff">SeWeaponPrivilege</tspan>
+      <tspan x="275" fill="#c9d1d9">QSZ-92, Type 54 Pistol, NRP-9</tspan>
+      <tspan x="745" fill="#13a10e">Enabled</tspan>
+    </text>
+  </g>
+
+  <!-- Final prompt + blinking cursor -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="4.45s" dur="0.1s" fill="freeze"/>
+    <text x="15" y="358" class="mono" fill="#3a96dd">PS C:\Users\whoami&gt;</text>
+    <rect x="184" y="346" width="9" height="16" fill="#ffffff">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
